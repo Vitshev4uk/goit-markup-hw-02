@@ -2,72 +2,79 @@
 --primary-brand : #4D5AE5;
 --text-col : #434455;
 --dark : #2E2F42;
-
-
+--subtle-text : #8E8F99;
+--accent : #E7E9FC;
+--light : #F4F4FD;
+--success : #31D0AA;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
 .list {
-text-decoration: none;
+    list-style: none; 
 }
-
-.main-body {
-    font-family: 'Roboto';
-    background-color: #E5E5E5;
-
+.link {
+    text-decoration: none;
 }
-.logo {
-
-}
-.link-nav {
+.menu-link {
 font-weight: 600;
 font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
-
-.link-nav:hover,
-.link-nav:focus {
-    color: #434455;
-}
-
-.hero {
-  background-color: var(--dark);  
-}
-
-.title {
-    color: #FFFFFF;
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-line-height: 1.1;
-text-align: center;
-}
-.button:hover {
-    
-}
-.secondary-title {
-    color: var(--dark);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-.list-title {
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
+line-height: 24px;
+letter-spacing: 1.5;
 color: var(--dark);
 }
-
-.text {
-font-style: normal;
+.contact-phone {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--text-col);
 }
+.contact-phone:hover,
+.contact-phone:focus {
+    color: var(--primary-brand)
+}
+.contact-mail {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+    color: #4D5AE5;
+}
+
+.hero {
+    background-color: var(--dark);  
+  }
+.hero-title {
+      color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.1;
+  text-align: center;
+  }
+
+.btn {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary-brand);
+    color: #ffffff;
+}
+
+
+
