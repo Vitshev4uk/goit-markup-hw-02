@@ -6,10 +6,11 @@
 --accent : #E7E9FC;
 --light : #F4F4FD;
 --success : #31D0AA;
+--pure-white : #FFFFFF;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--pure-white);
 }
 
 .list {
@@ -19,7 +20,7 @@ body {
     text-decoration: none;
 }
 .page-header {
-    background-color: #fff;
+    background-color: var(--pure-white);
 }
 .logo {
     color: var(--primary-brand);
@@ -69,7 +70,7 @@ body {
     background-color: var(--dark);  
   }
 .hero-title {
-    color: #FFFFFF;;
+    color: var(--pure-white);
     font-weight: 600;
     font-size: 56px;
     line-height: 1.1;
@@ -78,19 +79,19 @@ body {
   }
 
 .btn {
+    color: var(--primary-brand);
+    background-color: var(--accent);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
     cursor: pointer;
 }
-.btn:hover,
-.btn:focus {
+.btn:active {
     background-color: var(--primary-brand);
-    color: #ffffff;
+    color: var(--pure-white);
 }
 .filter-btn {
     
@@ -180,8 +181,5 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark);
 }
-
-
-
 
 
