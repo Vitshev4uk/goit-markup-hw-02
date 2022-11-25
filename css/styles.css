@@ -22,43 +22,43 @@ body {
     background-color: #fff;
 }
 .logo {
-color: #4D5AE5;
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    color: var(--primary-brand);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .text-logo {
-    color: #2E2F42;
+    color: var(--dark);
 }
 .menu-link {
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 1.5;
-color: var(--dark);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    color: var(--dark);
 }
 .contact-phone {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-col);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-col);
 }
 .contact-phone:hover,
 .contact-phone:focus {
     color: var(--primary-brand)
 }
 .contact-mail {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-col);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-col);
 }
 .contact-mail:hover,
 .contact-mail:focus {
@@ -69,23 +69,23 @@ color: var(--text-col);
     background-color: var(--dark);  
   }
 .hero-title {
-      color: #FFFFFF;;
-  font-weight: 600;
-  font-size: 56px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
+    color: #FFFFFF;;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
   }
 
 .btn {
-font-weight: 600;
-font-size: 16px;
-line-height: 1.19;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -105,7 +105,7 @@ cursor: pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--dark);
 }
 
 .works-title {
@@ -113,7 +113,7 @@ cursor: pointer;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42; 
+    color: var(--dark); 
 }
 .team-title {
     font-weight: 600;
@@ -121,25 +121,25 @@ cursor: pointer;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2E2F42;
+    color: var(--dark);
 }
 .text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-col);
 }
 .team-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-col);
 }
 .section-team {
- background-color: var(--light);
+    background-color: var(--light);
 }
 .page-footer {
     background-color: var(--dark);
@@ -153,7 +153,7 @@ color: #434455;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--primary-brand);
 }
 .text-logo-footer {
     font-family: 'Raleway';
@@ -164,14 +164,21 @@ color: #434455;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #E7E9FC;
+    color: var(--light);
 }
 .text-footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--accent);
+}
+.title-list-works {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
 }
 
 
