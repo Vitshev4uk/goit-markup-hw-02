@@ -38,7 +38,7 @@ body {
     color: var(--dark);
 }
 .menu-link {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1.5;
@@ -70,7 +70,7 @@ body {
   }
 .hero-title {
     color: var(--pure-white);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
@@ -80,7 +80,7 @@ body {
 .btn {
     color: var(--primary-brand);
     background-color: var(--accent);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     display: flex;
@@ -96,7 +96,7 @@ body {
     display: none;
 }
 .secondary-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.33;
     text-align: center;
@@ -106,14 +106,14 @@ body {
 }
 
 .works-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark); 
 }
 .team-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -168,7 +168,7 @@ body {
     color: var(--accent);
 }
 .title-list-works {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
